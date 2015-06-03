@@ -21,8 +21,7 @@
     // Begin writing your code here. This method will kick off automatically.
 
     NSString *string = @"hello world";
-    [string uppercaseString]
-
+    [string uppercaseString];
 
 
 //    [self login];
