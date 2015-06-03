@@ -20,7 +20,12 @@
 {
     // Begin writing your code here. This method will kick off automatically.
 
-    [self login];
+    NSString *string = @"hello world";
+    [string uppercaseString]
+
+
+
+//    [self login];
     [self beInterviewed];
 }
 
