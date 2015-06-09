@@ -42,7 +42,6 @@
 
     NSSortDescriptor *mySorter = [NSSortDescriptor sortDescriptorWithKey:@"employmentHistory" ascending:YES];
 
-
     NSMutableArray *allInstructors = [[instructors allValues] mutableCopy];
     [allInstructors sortUsingDescriptors:@[mySorter]];
 
