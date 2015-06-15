@@ -1,0 +1,11 @@
+language: objective-c
+
+before_install:
+  - brew update
+  - brew upgrade xctool
+  
+notifications:
+  webhooks: http://progress.flatironschool.com/submissions
+
+script: xctool -reporter json-stream -workspace /NavigationControllers/NavigationControllers.xcworkspace -sdk iphonesimulator -scheme NavigationControllers build NavigationControllersTests
+
