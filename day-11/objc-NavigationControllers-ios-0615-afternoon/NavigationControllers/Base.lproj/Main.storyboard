@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abs-Hu-ybb">
-                                <rect key="frame" x="24" y="138" width="110" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abs-Hu-ybb" customClass="TeamMemberButton">
+                                <rect key="frame" x="25" y="139" width="110" height="120"/>
                                 <accessibility key="accessibilityConfiguration" label="alImage"/>
                                 <state key="normal" backgroundImage="al.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -27,8 +27,8 @@
                                     <segue destination="mKz-5K-FLT" kind="push" identifier="al" id="unP-2b-79g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUU-Aq-7b6">
-                                <rect key="frame" x="174" y="138" width="110" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUU-Aq-7b6" customClass="TeamMemberButton">
+                                <rect key="frame" x="175" y="139" width="110" height="120"/>
                                 <accessibility key="accessibilityConfiguration" label="joeImage"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" backgroundImage="joe.jpg">
@@ -38,8 +38,8 @@
                                     <segue destination="mKz-5K-FLT" kind="push" identifier="joe" id="hXi-UK-gPa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-U2-von">
-                                <rect key="frame" x="24" y="308" width="110" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-U2-von" customClass="TeamMemberButton">
+                                <rect key="frame" x="25" y="309" width="110" height="120"/>
                                 <accessibility key="accessibilityConfiguration" label="chrisImage"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" backgroundImage="chris.jpg">
@@ -49,8 +49,8 @@
                                     <segue destination="mKz-5K-FLT" kind="push" identifier="chris" id="KNF-5U-v4G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIu-yK-Br8">
-                                <rect key="frame" x="174" y="308" width="110" height="120"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIu-yK-Br8" customClass="TeamMemberButton">
+                                <rect key="frame" x="175" y="309" width="110" height="120"/>
                                 <accessibility key="accessibilityConfiguration" label="aviImage"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" backgroundImage="avi.jpg">
@@ -64,6 +64,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ghh-n8-KQ0"/>
+                    <connections>
+                        <outlet property="alButton" destination="Abs-Hu-ybb" id="1J9-kf-Ll6"/>
+                        <outlet property="aviButton" destination="aIu-yK-Br8" id="1Vw-km-ReC"/>
+                        <outlet property="chrisButton" destination="cqs-U2-von" id="fgv-Ty-aoC"/>
+                        <outlet property="joeButton" destination="zUU-Aq-7b6" id="YOh-8H-qgZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
