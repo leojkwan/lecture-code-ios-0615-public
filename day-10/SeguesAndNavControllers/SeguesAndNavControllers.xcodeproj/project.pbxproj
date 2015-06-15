@@ -15,6 +15,7 @@
 		BD2C948A1B2B5E9100D3A252 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2C94881B2B5E9100D3A252 /* LaunchScreen.xib */; };
 		BD2C94961B2B5E9100D3A252 /* SeguesAndNavControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2C94951B2B5E9100D3A252 /* SeguesAndNavControllersTests.m */; };
 		BD2C94A11B2B62F000D3A252 /* InstructorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2C94A01B2B62F000D3A252 /* InstructorViewController.m */; };
+		BDCA8AD91B2F1B7C002FA749 /* Blah.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA8AD81B2F1B7C002FA749 /* Blah.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		BD2C94951B2B5E9100D3A252 /* SeguesAndNavControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeguesAndNavControllersTests.m; sourceTree = "<group>"; };
 		BD2C949F1B2B62F000D3A252 /* InstructorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructorViewController.h; sourceTree = "<group>"; };
 		BD2C94A01B2B62F000D3A252 /* InstructorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructorViewController.m; sourceTree = "<group>"; };
+		BDCA8AD71B2F1B7C002FA749 /* Blah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blah.h; sourceTree = "<group>"; };
+		BDCA8AD81B2F1B7C002FA749 /* Blah.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blah.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				BD2C94791B2B5E9100D3A252 /* Supporting Files */,
 				BD2C949F1B2B62F000D3A252 /* InstructorViewController.h */,
 				BD2C94A01B2B62F000D3A252 /* InstructorViewController.m */,
+				BDCA8AD71B2F1B7C002FA749 /* Blah.h */,
+				BDCA8AD81B2F1B7C002FA749 /* Blah.m */,
 			);
 			path = SeguesAndNavControllers;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCA8AD91B2F1B7C002FA749 /* Blah.m in Sources */,
 				BD2C94821B2B5E9100D3A252 /* ViewController.m in Sources */,
 				BD2C94A11B2B62F000D3A252 /* InstructorViewController.m in Sources */,
 				BD2C947F1B2B5E9100D3A252 /* AppDelegate.m in Sources */,
@@ -422,6 +428,7 @@
 				BD2C949B1B2B5E9100D3A252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD2C949C1B2B5E9100D3A252 /* Build configuration list for PBXNativeTarget "SeguesAndNavControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				BD2C949E1B2B5E9100D3A252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

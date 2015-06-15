@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(instancetype)init;
 
 @end
 
