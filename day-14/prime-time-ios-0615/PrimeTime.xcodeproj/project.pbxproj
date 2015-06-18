@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726811FB1923ECC5009F8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FA1923ECC5009F8F37 /* Foundation.framework */; };
+		726811FD1923ECC5009F8F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FC1923ECC5009F8F37 /* CoreGraphics.framework */; };
+		726811FF1923ECC5009F8F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FE1923ECC5009F8F37 /* UIKit.framework */; };
+		726812051923ECC5009F8F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 726812031923ECC5009F8F37 /* InfoPlist.strings */; };
+		726812071923ECC5009F8F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726812061923ECC5009F8F37 /* main.m */; };
+		7268120B1923ECC5009F8F37 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268120A1923ECC5009F8F37 /* FISAppDelegate.m */; };
+		7268120D1923ECC5009F8F37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7268120C1923ECC5009F8F37 /* Images.xcassets */; };
+		726812141923ECC5009F8F37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726812131923ECC5009F8F37 /* XCTest.framework */; };
+		726812151923ECC5009F8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FA1923ECC5009F8F37 /* Foundation.framework */; };
+		726812161923ECC5009F8F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FE1923ECC5009F8F37 /* UIKit.framework */; };
+		7268121E1923ECC5009F8F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7268121C1923ECC5009F8F37 /* InfoPlist.strings */; };
+		72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */; };
+		72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */; };
+		72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */; };
+		E2D91BF81B33102100AE2F4D /* FISPrimesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D91BF71B33102100AE2F4D /* FISPrimesTableViewController.m */; };
+		E2D91BFA1B33102700AE2F4D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D91BF91B33102700AE2F4D /* Storyboard.storyboard */; };
+		FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726812171923ECC5009F8F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726811EF1923ECC5009F8F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726811F61923ECC5009F8F37;
+			remoteInfo = PrimeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		726811F71923ECC5009F8F37 /* PrimeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726811FA1923ECC5009F8F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		726811FC1923ECC5009F8F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		726811FE1923ECC5009F8F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		726812021923ECC5009F8F37 /* PrimeTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeTime-Info.plist"; sourceTree = "<group>"; };
+		726812041923ECC5009F8F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		726812061923ECC5009F8F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		726812081923ECC5009F8F37 /* PrimeTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeTime-Prefix.pch"; sourceTree = "<group>"; };
+		726812091923ECC5009F8F37 /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		7268120A1923ECC5009F8F37 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		7268120C1923ECC5009F8F37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		726812121923ECC5009F8F37 /* PrimeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726812131923ECC5009F8F37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7268121B1923ECC5009F8F37 /* PrimeTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeTimeTests-Info.plist"; sourceTree = "<group>"; };
+		7268121D1923ECC5009F8F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews2000Spec.m; sourceTree = "<group>"; };
+		72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViews5000Spec.m; sourceTree = "<group>"; };
+		72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeViewsSpec.m; sourceTree = "<group>"; };
+		82DACE7EBD0B870343CC6AAD /* Pods-PrimeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F2D53C2CFB6D88462E8C54D /* Pods-PrimeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D91BF61B33102100AE2F4D /* FISPrimesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrimesTableViewController.h; sourceTree = "<group>"; };
+		E2D91BF71B33102100AE2F4D /* FISPrimesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimesTableViewController.m; sourceTree = "<group>"; };
+		E2D91BF91B33102700AE2F4D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726811F41923ECC5009F8F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726811FD1923ECC5009F8F37 /* CoreGraphics.framework in Frameworks */,
+				726811FF1923ECC5009F8F37 /* UIKit.framework in Frameworks */,
+				726811FB1923ECC5009F8F37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7268120F1923ECC5009F8F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726812141923ECC5009F8F37 /* XCTest.framework in Frameworks */,
+				726812161923ECC5009F8F37 /* UIKit.framework in Frameworks */,
+				726812151923ECC5009F8F37 /* Foundation.framework in Frameworks */,
+				FDB0429F6C734DBEA1492468 /* libPods-PrimeTimeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726811EE1923ECC5009F8F37 = {
+			isa = PBXGroup;
+			children = (
+				726812001923ECC5009F8F37 /* PrimeTime */,
+				726812191923ECC5009F8F37 /* PrimeTimeTests */,
+				726811F91923ECC5009F8F37 /* Frameworks */,
+				726811F81923ECC5009F8F37 /* Products */,
+				8E7FB8F5902C467DD6DC7070 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		726811F81923ECC5009F8F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726811F71923ECC5009F8F37 /* PrimeTime.app */,
+				726812121923ECC5009F8F37 /* PrimeTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726811F91923ECC5009F8F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				726811FA1923ECC5009F8F37 /* Foundation.framework */,
+				726811FC1923ECC5009F8F37 /* CoreGraphics.framework */,
+				726811FE1923ECC5009F8F37 /* UIKit.framework */,
+				726812131923ECC5009F8F37 /* XCTest.framework */,
+				EE1715E2E7914D189A1B7F53 /* libPods-PrimeTimeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		726812001923ECC5009F8F37 /* PrimeTime */ = {
+			isa = PBXGroup;
+			children = (
+				726812091923ECC5009F8F37 /* FISAppDelegate.h */,
+				7268120A1923ECC5009F8F37 /* FISAppDelegate.m */,
+				E2D91BF61B33102100AE2F4D /* FISPrimesTableViewController.h */,
+				E2D91BF71B33102100AE2F4D /* FISPrimesTableViewController.m */,
+				E2D91BF91B33102700AE2F4D /* Storyboard.storyboard */,
+				7268120C1923ECC5009F8F37 /* Images.xcassets */,
+				726812011923ECC5009F8F37 /* Supporting Files */,
+			);
+			path = PrimeTime;
+			sourceTree = "<group>";
+		};
+		726812011923ECC5009F8F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				726812021923ECC5009F8F37 /* PrimeTime-Info.plist */,
+				726812031923ECC5009F8F37 /* InfoPlist.strings */,
+				726812061923ECC5009F8F37 /* main.m */,
+				726812081923ECC5009F8F37 /* PrimeTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		726812191923ECC5009F8F37 /* PrimeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				72B2E3A21925766B00F9A3A3 /* FISPrimeViewsSpec.m */,
+				72AE98641926914600C551EA /* FISPrimeViews2000Spec.m */,
+				72AE9866192691AC00C551EA /* FISPrimeViews5000Spec.m */,
+				7268121A1923ECC5009F8F37 /* Supporting Files */,
+			);
+			path = PrimeTimeTests;
+			sourceTree = "<group>";
+		};
+		7268121A1923ECC5009F8F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7268121B1923ECC5009F8F37 /* PrimeTimeTests-Info.plist */,
+				7268121C1923ECC5009F8F37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E7FB8F5902C467DD6DC7070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D53C2CFB6D88462E8C54D /* Pods-PrimeTimeTests.debug.xcconfig */,
+				82DACE7EBD0B870343CC6AAD /* Pods-PrimeTimeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726811F61923ECC5009F8F37 /* PrimeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726812231923ECC5009F8F37 /* Build configuration list for PBXNativeTarget "PrimeTime" */;
+			buildPhases = (
+				726811F31923ECC5009F8F37 /* Sources */,
+				726811F41923ECC5009F8F37 /* Frameworks */,
+				726811F51923ECC5009F8F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeTime;
+			productName = PrimeTime;
+			productReference = 726811F71923ECC5009F8F37 /* PrimeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		726812111923ECC5009F8F37 /* PrimeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726812261923ECC5009F8F37 /* Build configuration list for PBXNativeTarget "PrimeTimeTests" */;
+			buildPhases = (
+				AEB368209180486DA8FC25F5 /* Check Pods Manifest.lock */,
+				7268120E1923ECC5009F8F37 /* Sources */,
+				7268120F1923ECC5009F8F37 /* Frameworks */,
+				726812101923ECC5009F8F37 /* Resources */,
+				CE0542CF228049A6B942ED03 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726812181923ECC5009F8F37 /* PBXTargetDependency */,
+			);
+			name = PrimeTimeTests;
+			productName = PrimeTimeTests;
+			productReference = 726812121923ECC5009F8F37 /* PrimeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726811EF1923ECC5009F8F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FIS;
+				TargetAttributes = {
+					726812111923ECC5009F8F37 = {
+						TestTargetID = 726811F61923ECC5009F8F37;
+					};
+				};
+			};
+			buildConfigurationList = 726811F21923ECC5009F8F37 /* Build configuration list for PBXProject "PrimeTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 726811EE1923ECC5009F8F37;
+			productRefGroup = 726811F81923ECC5009F8F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726811F61923ECC5009F8F37 /* PrimeTime */,
+				726812111923ECC5009F8F37 /* PrimeTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726811F51923ECC5009F8F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726812051923ECC5009F8F37 /* InfoPlist.strings in Resources */,
+				7268120D1923ECC5009F8F37 /* Images.xcassets in Resources */,
+				E2D91BFA1B33102700AE2F4D /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726812101923ECC5009F8F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7268121E1923ECC5009F8F37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEB368209180486DA8FC25F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0542CF228049A6B942ED03 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrimeTimeTests/Pods-PrimeTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726811F31923ECC5009F8F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726812071923ECC5009F8F37 /* main.m in Sources */,
+				E2D91BF81B33102100AE2F4D /* FISPrimesTableViewController.m in Sources */,
+				7268120B1923ECC5009F8F37 /* FISAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7268120E1923ECC5009F8F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE98651926914600C551EA /* FISPrimeViews2000Spec.m in Sources */,
+				72AE9867192691AC00C551EA /* FISPrimeViews5000Spec.m in Sources */,
+				72B2E3A31925766B00F9A3A3 /* FISPrimeViewsSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726812181923ECC5009F8F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726811F61923ECC5009F8F37 /* PrimeTime */;
+			targetProxy = 726812171923ECC5009F8F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		726812031923ECC5009F8F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726812041923ECC5009F8F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7268121C1923ECC5009F8F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7268121D1923ECC5009F8F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726812211923ECC5009F8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		726812221923ECC5009F8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726812241923ECC5009F8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		726812251923ECC5009F8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		726812271923ECC5009F8F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2D53C2CFB6D88462E8C54D /* Pods-PrimeTimeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeTime.app/PrimeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME2000;
+				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		726812281923ECC5009F8F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DACE7EBD0B870343CC6AAD /* Pods-PrimeTimeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeTime.app/PrimeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME2000;
+				INFOPLIST_FILE = "PrimeTimeTests/PrimeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726811F21923ECC5009F8F37 /* Build configuration list for PBXProject "PrimeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726812211923ECC5009F8F37 /* Debug */,
+				726812221923ECC5009F8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726812231923ECC5009F8F37 /* Build configuration list for PBXNativeTarget "PrimeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726812241923ECC5009F8F37 /* Debug */,
+				726812251923ECC5009F8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726812261923ECC5009F8F37 /* Build configuration list for PBXNativeTarget "PrimeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726812271923ECC5009F8F37 /* Debug */,
+				726812281923ECC5009F8F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726811EF1923ECC5009F8F37 /* Project object */;
+}
