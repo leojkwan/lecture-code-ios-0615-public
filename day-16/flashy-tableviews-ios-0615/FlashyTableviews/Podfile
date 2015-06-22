@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'FlashyTableviews' do
+    pod 'SWTableViewCell', '~> 0.3.7'
+    pod 'APParallaxHeader'
+end
+
+target 'FlashyTableviewsTests' do
+
+end
+
