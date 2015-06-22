@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE28216302E93DECB265077B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD699FF4DB78D01F003001A /* libPods.a */; };
+		BDCEE8471B38956D00207246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCEE8461B38956D00207246 /* main.m */; };
+		BDCEE84A1B38956D00207246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCEE8491B38956D00207246 /* AppDelegate.m */; };
+		BDCEE84D1B38956D00207246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCEE84C1B38956D00207246 /* ViewController.m */; };
+		BDCEE8501B38956D00207246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCEE84E1B38956D00207246 /* Main.storyboard */; };
+		BDCEE8521B38956D00207246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCEE8511B38956D00207246 /* Images.xcassets */; };
+		BDCEE8551B38956D00207246 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDCEE8531B38956D00207246 /* LaunchScreen.xib */; };
+		BDCEE8611B38956D00207246 /* FISTweeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCEE8601B38956D00207246 /* FISTweeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDCEE85B1B38956D00207246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCEE8391B38956D00207246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCEE8401B38956D00207246;
+			remoteInfo = FISTweeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2426D778B56C4D89BC96868A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD699FF4DB78D01F003001A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AF2CC1FF327ECAF0C55268 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BDCEE8411B38956D00207246 /* FISTweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISTweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEE8451B38956D00207246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEE8461B38956D00207246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDCEE8481B38956D00207246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDCEE8491B38956D00207246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDCEE84B1B38956D00207246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDCEE84C1B38956D00207246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDCEE84F1B38956D00207246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDCEE8511B38956D00207246 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDCEE8541B38956D00207246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDCEE85A1B38956D00207246 /* FISTweeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISTweeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCEE85F1B38956D00207246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCEE8601B38956D00207246 /* FISTweeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISTweeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCEE83E1B38956D00207246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE28216302E93DECB265077B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEE8571B38956D00207246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13665C375F4AA6D670CCB6A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2426D778B56C4D89BC96868A /* Pods.debug.xcconfig */,
+				B7AF2CC1FF327ECAF0C55268 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDCEE8381B38956D00207246 = {
+			isa = PBXGroup;
+			children = (
+				BDCEE8431B38956D00207246 /* FISTweeter */,
+				BDCEE85D1B38956D00207246 /* FISTweeterTests */,
+				BDCEE8421B38956D00207246 /* Products */,
+				13665C375F4AA6D670CCB6A2 /* Pods */,
+				EC18A01B8812B913B620F623 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCEE8421B38956D00207246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE8411B38956D00207246 /* FISTweeter.app */,
+				BDCEE85A1B38956D00207246 /* FISTweeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCEE8431B38956D00207246 /* FISTweeter */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE8481B38956D00207246 /* AppDelegate.h */,
+				BDCEE8491B38956D00207246 /* AppDelegate.m */,
+				BDCEE84B1B38956D00207246 /* ViewController.h */,
+				BDCEE84C1B38956D00207246 /* ViewController.m */,
+				BDCEE84E1B38956D00207246 /* Main.storyboard */,
+				BDCEE8511B38956D00207246 /* Images.xcassets */,
+				BDCEE8531B38956D00207246 /* LaunchScreen.xib */,
+				BDCEE8441B38956D00207246 /* Supporting Files */,
+			);
+			path = FISTweeter;
+			sourceTree = "<group>";
+		};
+		BDCEE8441B38956D00207246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE8451B38956D00207246 /* Info.plist */,
+				BDCEE8461B38956D00207246 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDCEE85D1B38956D00207246 /* FISTweeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE8601B38956D00207246 /* FISTweeterTests.m */,
+				BDCEE85E1B38956D00207246 /* Supporting Files */,
+			);
+			path = FISTweeterTests;
+			sourceTree = "<group>";
+		};
+		BDCEE85E1B38956D00207246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE85F1B38956D00207246 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC18A01B8812B913B620F623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD699FF4DB78D01F003001A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDCEE8401B38956D00207246 /* FISTweeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEE8641B38956D00207246 /* Build configuration list for PBXNativeTarget "FISTweeter" */;
+			buildPhases = (
+				C1CF0115813C7343EFC5ECC2 /* Check Pods Manifest.lock */,
+				BDCEE83D1B38956D00207246 /* Sources */,
+				BDCEE83E1B38956D00207246 /* Frameworks */,
+				BDCEE83F1B38956D00207246 /* Resources */,
+				C8419F6AEA1C9B5BB25C7A1E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FISTweeter;
+			productName = FISTweeter;
+			productReference = BDCEE8411B38956D00207246 /* FISTweeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDCEE8591B38956D00207246 /* FISTweeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCEE8671B38956D00207246 /* Build configuration list for PBXNativeTarget "FISTweeterTests" */;
+			buildPhases = (
+				BDCEE8561B38956D00207246 /* Sources */,
+				BDCEE8571B38956D00207246 /* Frameworks */,
+				BDCEE8581B38956D00207246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCEE85C1B38956D00207246 /* PBXTargetDependency */,
+			);
+			name = FISTweeterTests;
+			productName = FISTweeterTests;
+			productReference = BDCEE85A1B38956D00207246 /* FISTweeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCEE8391B38956D00207246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					BDCEE8401B38956D00207246 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BDCEE8591B38956D00207246 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BDCEE8401B38956D00207246;
+					};
+				};
+			};
+			buildConfigurationList = BDCEE83C1B38956D00207246 /* Build configuration list for PBXProject "FISTweeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDCEE8381B38956D00207246;
+			productRefGroup = BDCEE8421B38956D00207246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCEE8401B38956D00207246 /* FISTweeter */,
+				BDCEE8591B38956D00207246 /* FISTweeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDCEE83F1B38956D00207246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEE8501B38956D00207246 /* Main.storyboard in Resources */,
+				BDCEE8551B38956D00207246 /* LaunchScreen.xib in Resources */,
+				BDCEE8521B38956D00207246 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEE8581B38956D00207246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1CF0115813C7343EFC5ECC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8419F6AEA1C9B5BB25C7A1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCEE83D1B38956D00207246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEE84D1B38956D00207246 /* ViewController.m in Sources */,
+				BDCEE84A1B38956D00207246 /* AppDelegate.m in Sources */,
+				BDCEE8471B38956D00207246 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCEE8561B38956D00207246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCEE8611B38956D00207246 /* FISTweeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDCEE85C1B38956D00207246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCEE8401B38956D00207246 /* FISTweeter */;
+			targetProxy = BDCEE85B1B38956D00207246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDCEE84E1B38956D00207246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEE84F1B38956D00207246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCEE8531B38956D00207246 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCEE8541B38956D00207246 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDCEE8621B38956D00207246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDCEE8631B38956D00207246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDCEE8651B38956D00207246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2426D778B56C4D89BC96868A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISTweeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDCEE8661B38956D00207246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AF2CC1FF327ECAF0C55268 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISTweeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDCEE8681B38956D00207246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FISTweeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISTweeter.app/FISTweeter";
+			};
+			name = Debug;
+		};
+		BDCEE8691B38956D00207246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FISTweeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISTweeter.app/FISTweeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCEE83C1B38956D00207246 /* Build configuration list for PBXProject "FISTweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEE8621B38956D00207246 /* Debug */,
+				BDCEE8631B38956D00207246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEE8641B38956D00207246 /* Build configuration list for PBXNativeTarget "FISTweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEE8651B38956D00207246 /* Debug */,
+				BDCEE8661B38956D00207246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCEE8671B38956D00207246 /* Build configuration list for PBXNativeTarget "FISTweeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCEE8681B38956D00207246 /* Debug */,
+				BDCEE8691B38956D00207246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDCEE8391B38956D00207246 /* Project object */;
+}
