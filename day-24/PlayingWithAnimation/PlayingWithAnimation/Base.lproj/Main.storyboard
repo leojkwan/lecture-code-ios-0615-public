@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ojW-dl-B1y">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="457537863.52999502">
+                                    <!--2015-07-02 13:51:03 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpd-Wc-E7k">
+                                <rect key="frame" x="469" y="170" width="115" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JEl-cY-l81"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2O-C3-56B">
+                                <rect key="frame" x="16" y="170" width="88" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.16862745579999999" green="0.98823535439999999" blue="0.48627454040000001" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uEl-QN-V2y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="O2O-C3-56B" firstAttribute="top" secondItem="ojW-dl-B1y" secondAttribute="bottom" constant="8" id="MFi-pM-Y7r"/>
+                            <constraint firstItem="qpd-Wc-E7k" firstAttribute="top" secondItem="ojW-dl-B1y" secondAttribute="bottom" constant="8" id="Nnn-Fb-1Ma"/>
+                            <constraint firstItem="ojW-dl-B1y" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="fln-co-qlR"/>
+                            <constraint firstItem="O2O-C3-56B" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="iv2-Jc-l8L"/>
+                            <constraint firstItem="ojW-dl-B1y" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="n2l-20-4c5"/>
+                            <constraint firstItem="qpd-Wc-E7k" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="s00-aS-g9S"/>
+                            <constraint firstAttribute="trailing" secondItem="ojW-dl-B1y" secondAttribute="trailing" id="xnh-ds-LhX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pauseButton" destination="qpd-Wc-E7k" id="Nwh-nD-PF8"/>
+                        <outlet property="pauseButtonRightConstraint" destination="s00-aS-g9S" id="74g-rC-5dK"/>
+                        <outlet property="startButton" destination="O2O-C3-56B" id="VQk-TQ-jnq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
