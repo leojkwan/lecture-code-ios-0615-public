@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5Hu-el-EPR">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6wj-zG-xR5">
+            <objects>
+                <viewController id="5Hu-el-EPR" customClass="FISViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5qK-3R-d30"/>
+                        <viewControllerLayoutGuide type="bottom" id="VQ7-aS-cdv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fkD-Sc-OTu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="hedgehogbath" translatesAutoresizingMaskIntoConstraints="NO" id="O9f-XV-fJq">
+                                <rect key="frame" x="0.0" y="120" width="600" height="360"/>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCf-2M-v2Q">
+                                <rect key="frame" x="279" y="50" width="42" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Gh9-Ig-NSW" appends="YES" id="alx-uI-CIi"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wCf-2M-v2Q" firstAttribute="top" secondItem="5qK-3R-d30" secondAttribute="bottom" constant="30" id="5kk-lR-ciT"/>
+                            <constraint firstAttribute="centerX" secondItem="wCf-2M-v2Q" secondAttribute="centerX" id="70G-Vj-BgS"/>
+                            <constraint firstAttribute="width" secondItem="O9f-XV-fJq" secondAttribute="width" id="C6N-vA-vcR"/>
+                            <constraint firstItem="O9f-XV-fJq" firstAttribute="leading" secondItem="fkD-Sc-OTu" secondAttribute="leadingMargin" constant="-16" id="Mng-OF-8F3"/>
+                            <constraint firstItem="O9f-XV-fJq" firstAttribute="top" secondItem="5qK-3R-d30" secondAttribute="bottom" constant="100" id="T9e-WN-hEE"/>
+                            <constraint firstItem="O9f-XV-fJq" firstAttribute="height" secondItem="fkD-Sc-OTu" secondAttribute="height" multiplier="0.6" id="WXM-9Z-Qfe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="O9f-XV-fJq" id="X7i-9r-nIL"/>
+                        <outlet property="leftConstraint" destination="Mng-OF-8F3" id="PWT-dd-2gE"/>
+                        <outlet property="topConstraint" destination="T9e-WN-hEE" id="Q5k-rh-1hh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMD-jI-6AR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Gh9-Ig-NSW">
+                    <connections>
+                        <action selector="labelLongPressed:" destination="5Hu-el-EPR" id="ghD-15-Ms2"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="624" y="392"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hedgehogbath" width="560" height="416"/>
+    </resources>
+</document>

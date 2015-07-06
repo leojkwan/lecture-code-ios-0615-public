@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4812182D8C0294F97367FB10 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBE1632164D9AF2B4551B2 /* FISAppDelegate.m */; };
+		4C0ED066B92D7D623C32FFD1 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = CB5F0D191698DC96ED79E704 /* Main.storyboard */; };
+		5E9784C3E5480E22B8AF1C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A127E5BF7BF2AABC9D7FD0FB /* main.m */; };
+		6932369E65EDDAADC4DE5EDD /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0939F01E0D7786C6F6A6A069 /* LaunchScreen.xib */; };
+		69A1F613D118924626FAF214 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED5D746519968C2168A26CE /* libPods.a */; };
+		9BEF076C6B50911BD0C5EE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F968E00122E8FA819C86C4F /* Foundation.framework */; };
+		BD53EAF21B4AF562006C35B2 /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53EAF11B4AF562006C35B2 /* FISViewController.m */; };
+		C3B74EB7E05690DEB26C7792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5239B007E7F7B7EA44222B4C /* Images.xcassets */; };
+		F7BB62B3E9716054B333CA67 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FA078A9298B344577F9361 /* libPods-unit_tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EA3DDD5A155A50D2DA35ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DF21B3E4C2CBAB46937E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980692BE677158A968889A48;
+			remoteInfo = TouchesAndGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0939F01E0D7786C6F6A6A069 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0F968E00122E8FA819C86C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A434B641D5FA22964BA2E3C /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		2AADD5642276411CEB3AAE67 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2CDBE1632164D9AF2B4551B2 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		37EE24873D2630339D09F306 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		5239B007E7F7B7EA44222B4C /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ED5D746519968C2168A26CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDC7FC10B28920FDF6558A6 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91739F72448BA50A0EB1F6DA /* TouchesAndGestures-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchesAndGestures-Prefix.pch"; sourceTree = "<group>"; };
+		97B169AB713A90287D4AB1CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		994599443FBBB30C3B86B246 /* TouchesAndGestures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TouchesAndGestures-Info.plist"; sourceTree = "<group>"; };
+		A0FA078A9298B344577F9361 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A127E5BF7BF2AABC9D7FD0FB /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8D3A01BBFBAC4A8BE06386E /* TouchesAndGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchesAndGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53EAF01B4AF562006C35B2 /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
+		BD53EAF11B4AF562006C35B2 /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
+		CB5F0D191698DC96ED79E704 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DFE410F53AAF65DF8E091540 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		E9A99859B7D47B8CF5A74065 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		F5B24B97EAA4105594356DBC /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476496E1268D39D18A807DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEF076C6B50911BD0C5EE5C /* Foundation.framework in Frameworks */,
+				69A1F613D118924626FAF214 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B1154670FAE2339F1EEC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BB62B3E9716054B333CA67 /* libPods-unit_tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086D37BE4AB5635EE0C73648 /* TouchesAndGestures */ = {
+			isa = PBXGroup;
+			children = (
+				E9A99859B7D47B8CF5A74065 /* FISAppDelegate.h */,
+				2CDBE1632164D9AF2B4551B2 /* FISAppDelegate.m */,
+				BD53EAF01B4AF562006C35B2 /* FISViewController.h */,
+				BD53EAF11B4AF562006C35B2 /* FISViewController.m */,
+				CB5F0D191698DC96ED79E704 /* Main.storyboard */,
+				6F31FB2CDF0EE6B495F1E1BC /* Resources */,
+			);
+			path = TouchesAndGestures;
+			sourceTree = "<group>";
+		};
+		321A55FB8D79ACB94D402F45 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4AA01825C6D78B330ED9AC78 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F968E00122E8FA819C86C4F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5428CF0A1CD4F72E6057F26E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA01825C6D78B330ED9AC78 /* iOS */,
+				7ED5D746519968C2168A26CE /* libPods.a */,
+				A0FA078A9298B344577F9361 /* libPods-unit_tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56889B37B66FA0CC10FC510C /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E648044B640E705363381E /* Resources */,
+				321A55FB8D79ACB94D402F45 /* Tests */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		5D93396FB04F2BF7224B6D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AADD5642276411CEB3AAE67 /* Pods.release.xcconfig */,
+				97B169AB713A90287D4AB1CB /* Pods.debug.xcconfig */,
+				DFE410F53AAF65DF8E091540 /* Pods-unit_tests.release.xcconfig */,
+				7FDC7FC10B28920FDF6558A6 /* Pods-unit_tests.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F31FB2CDF0EE6B495F1E1BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5239B007E7F7B7EA44222B4C /* Images.xcassets */,
+				0939F01E0D7786C6F6A6A069 /* LaunchScreen.xib */,
+				B5CA1EA46D85D9A8C4CFA5B8 /* Other-Sources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A99D76E9D7CA29FFC0608563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3A01BBFBAC4A8BE06386E /* TouchesAndGestures.app */,
+				F5B24B97EAA4105594356DBC /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CA1EA46D85D9A8C4CFA5B8 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				994599443FBBB30C3B86B246 /* TouchesAndGestures-Info.plist */,
+				91739F72448BA50A0EB1F6DA /* TouchesAndGestures-Prefix.pch */,
+				A127E5BF7BF2AABC9D7FD0FB /* main.m */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		B9E648044B640E705363381E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A434B641D5FA22964BA2E3C /* UnitTests-Info.plist */,
+				37EE24873D2630339D09F306 /* UnitTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF69304599852ECFE9BDC1E9 = {
+			isa = PBXGroup;
+			children = (
+				086D37BE4AB5635EE0C73648 /* TouchesAndGestures */,
+				56889B37B66FA0CC10FC510C /* UnitTests */,
+				5428CF0A1CD4F72E6057F26E /* Frameworks */,
+				A99D76E9D7CA29FFC0608563 /* Products */,
+				5D93396FB04F2BF7224B6D64 /* Pods */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980692BE677158A968889A48 /* TouchesAndGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D149CE8FCDE95CA3E51DCA /* Build configuration list for PBXNativeTarget "TouchesAndGestures" */;
+			buildPhases = (
+				79ADA9F19E93046E5A708519 /* Check Pods Manifest.lock */,
+				FD0D4061F7318FD7F6035AFA /* Sources */,
+				476496E1268D39D18A807DF4 /* Frameworks */,
+				FDD85B6C708EF2FDA82F0B0D /* Resources */,
+				3938A654C9B333E9BC170F5C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchesAndGestures;
+			productName = TouchesAndGestures;
+			productReference = A8D3A01BBFBAC4A8BE06386E /* TouchesAndGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4FDD45C04E07639F88B5DFE /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15998AFADB12808266D7B964 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				F5E896F4F70309A61EB15600 /* Check Pods Manifest.lock */,
+				3E4AD515335CCF9204C536E5 /* Sources */,
+				A6B1154670FAE2339F1EEC53 /* Frameworks */,
+				8154C48897887F2BD48F70C1 /* Resources */,
+				57D6BA5FF71D33B41CEE0AD5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3419A9F575D89CA11D976DB7 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = F5B24B97EAA4105594356DBC /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DF21B3E4C2CBAB46937E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "The Flatiron School";
+			};
+			buildConfigurationList = D0CD7E5D555AC99FD460CB65 /* Build configuration list for PBXProject "TouchesAndGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF69304599852ECFE9BDC1E9;
+			productRefGroup = A99D76E9D7CA29FFC0608563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980692BE677158A968889A48 /* TouchesAndGestures */,
+				C4FDD45C04E07639F88B5DFE /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8154C48897887F2BD48F70C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD85B6C708EF2FDA82F0B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B74EB7E05690DEB26C7792 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3938A654C9B333E9BC170F5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D6BA5FF71D33B41CEE0AD5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79ADA9F19E93046E5A708519 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E896F4F70309A61EB15600 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4AD515335CCF9204C536E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0D4061F7318FD7F6035AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4812182D8C0294F97367FB10 /* FISAppDelegate.m in Sources */,
+				4C0ED066B92D7D623C32FFD1 /* Main.storyboard in Sources */,
+				BD53EAF21B4AF562006C35B2 /* FISViewController.m in Sources */,
+				6932369E65EDDAADC4DE5EDD /* LaunchScreen.xib in Sources */,
+				5E9784C3E5480E22B8AF1C21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3419A9F575D89CA11D976DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980692BE677158A968889A48 /* TouchesAndGestures */;
+			targetProxy = 03EA3DDD5A155A50D2DA35ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B8CA18F0361A3FD9C58D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BE45589571DB9476A5350A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE410F53AAF65DF8E091540 /* Pods-unit_tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchesAndGestures.app/TouchesAndGestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5EA200C87D6072CC576A347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDC7FC10B28920FDF6558A6 /* Pods-unit_tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchesAndGestures.app/TouchesAndGestures";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7BA7421E89317212D866DE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B169AB713A90287D4AB1CB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchesAndGestures/Resources/Other-Sources/TouchesAndGestures-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "TouchesAndGestures/Resources/Other-Sources/TouchesAndGestures-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB0BAFE4A2B21F798EF96069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF22B7BE9F7432C978A229C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AADD5642276411CEB3AAE67 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchesAndGestures/Resources/Other-Sources/TouchesAndGestures-Prefix.pch";
+				INFOPLIST_FILE = "TouchesAndGestures/Resources/Other-Sources/TouchesAndGestures-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15998AFADB12808266D7B964 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE45589571DB9476A5350A1 /* Release */,
+				5EA200C87D6072CC576A347D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D149CE8FCDE95CA3E51DCA /* Build configuration list for PBXNativeTarget "TouchesAndGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22B7BE9F7432C978A229C9 /* Release */,
+				7BA7421E89317212D866DE67 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CD7E5D555AC99FD460CB65 /* Build configuration list for PBXProject "TouchesAndGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B8CA18F0361A3FD9C58D96 /* Debug */,
+				EB0BAFE4A2B21F798EF96069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DF21B3E4C2CBAB46937E20 /* Project object */;
+}
