@@ -10,6 +10,7 @@
 #import "DataManager.h"
 #import "Merchandise.h"
 #import "Merchandise+Methods.h"
+#import "Tag.h"
 
 
 @interface CartTableViewController ()
@@ -26,21 +27,72 @@
 
     self.dataManager = [DataManager sharedManager];
 
-    NSFetchRequest *merchFetch = [[NSFetchRequest alloc] initWithEntityName:@"Merchandise"];
-    self.dataManager.shoppingCart = [self.dataManager.managedObjectContext executeFetchRequest:merchFetch error:nil];
+//    NSFetchRequest *merchFetch = [[NSFetchRequest alloc] initWithEntityName:@"Merchandise"];
+//    self.dataManager.shoppingCart = [self.dataManager.managedObjectContext executeFetchRequest:merchFetch error:nil];
 
 
 
-    Merchandise *newMerch = [NSEntityDescription insertNewObjectForEntityForName:@"Merchandise"
-                                                          inManagedObjectContext:self.dataManager.managedObjectContext];
-    newMerch.name = @"Shiba Inu";
-    newMerch.priceInCents = 9999;
+//    Merchandise *newMerch = [NSEntityDescription insertNewObjectForEntityForName:@"Merchandise"
+//                                                          inManagedObjectContext:self.dataManager.managedObjectContext];
+//    newMerch.name = @"Shiba Inu";
+//    newMerch.priceInCents = 9999;
+//
+//
+//    Tag *puppyTag = [NSEntityDescription insertNewObjectForEntityForName:@"Tag" inManagedObjectContext:self.dataManager.managedObjectContext];
+//    puppyTag.name = @"puppy";
 
-    [self.dataManager saveContext];
+
+//    [newMerch addTagsObject:puppyTag];
+//    [puppyTag addMerchandiseObject:newMerch];
+//    [newMerch removeTagsObject:puppyTag];
+
+//    NSLog(@"Tags:");
+//    for(Tag *tag in newMerch.tags) {
+//        NSLog(@"%@", tag.name);
+//    }
+//
+//    NSLog(@"Merch for tag:");
+//    for(Merchandise *merch in puppyTag.merchandise) {
+//        NSLog(@"%@", merch.name);
+//    }
+//
+//    [self.dataManager saveContext];
+
+
+    NSFetchRequest *allTagsRequest = [[NSFetchRequest alloc] initWithEntityName:@"Tag"];
+    NSArray *allTags = [self.dataManager.managedObjectContext executeFetchRequest:allTagsRequest error:nil];
+
+    for(Tag *tag in allTags) {
+        NSLog(@"Tag: %@", tag.name);
+        for(Merchandise *merch in tag.merchandise) {
+            NSLog(@"\t%@", merch.name);
+        }
+    }
 
 
 
 //    self.dataManager.shoppingCart = [@[ newMerch ] mutableCopy];
+}
+
+-(Tag *)tagWithName:(NSString *)name
+{
+    // make a fetch request for a tag with the given name
+    // returned something? return that.
+    // nope? make a new one.
+
+    NSFetchRequest *tagRequest = [[NSFetchRequest alloc] initWithEntityName:@"Tag"];
+
+    tagRequest.predicate = [NSPredicate predicateWithFormat:@"name == %@", name];
+    NSArray *tags = [self.dataManager.managedObjectContext executeFetchRequest:tagRequest error:nil];
+
+    if(tags.count > 0) {
+        return tags.firstObject;
+    }
+
+    Tag *tag = [NSEntityDescription insertNewObjectForEntityForName:@"Tag" inManagedObjectContext:self.dataManager.managedObjectContext];
+    tag.name = name;
+
+    return tag;
 }
 
 //-(NSArray *)dummyInventory

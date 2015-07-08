@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD008C181B3C8F0200F8D04C /* Merchandise.m in Sources */ = {isa = PBXBuildFile; fileRef = BD008C171B3C8F0200F8D04C /* Merchandise.m */; };
+		BD008C1B1B3C8F0200F8D04C /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = BD008C1A1B3C8F0200F8D04C /* Tag.m */; };
 		BD4A2CFD1B3B174D00788D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A2CFC1B3B174D00788D43 /* main.m */; };
 		BD4A2D001B3B174D00788D43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A2CFF1B3B174D00788D43 /* AppDelegate.m */; };
 		BD4A2D061B3B174D00788D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4A2D041B3B174D00788D43 /* Main.storyboard */; };
@@ -17,7 +19,6 @@
 		BD4A2D281B3B197300788D43 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A2D271B3B197300788D43 /* DataManager.m */; };
 		BD5F71E71B3B3D7200F7218E /* CartModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5F71E51B3B3D7200F7218E /* CartModel.xcdatamodeld */; };
 		BD5F71F01B3B41BF00F7218E /* Merchandise+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F71EF1B3B41BF00F7218E /* Merchandise+Methods.m */; };
-		BD5F71F31B3B47DE00F7218E /* Merchandise.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5F71F21B3B47DE00F7218E /* Merchandise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD008C161B3C8F0200F8D04C /* Merchandise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merchandise.h; sourceTree = "<group>"; };
+		BD008C171B3C8F0200F8D04C /* Merchandise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merchandise.m; sourceTree = "<group>"; };
+		BD008C191B3C8F0200F8D04C /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		BD008C1A1B3C8F0200F8D04C /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
 		BD4A2CF71B3B174D00788D43 /* CoreDataIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A2CFB1B3B174D00788D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD4A2CFC1B3B174D00788D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,8 +54,6 @@
 		BD5F71E61B3B3D7200F7218E /* CartModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartModel.xcdatamodel; sourceTree = "<group>"; };
 		BD5F71EE1B3B41BF00F7218E /* Merchandise+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Merchandise+Methods.h"; sourceTree = "<group>"; };
 		BD5F71EF1B3B41BF00F7218E /* Merchandise+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Merchandise+Methods.m"; sourceTree = "<group>"; };
-		BD5F71F11B3B47DE00F7218E /* Merchandise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merchandise.h; sourceTree = "<group>"; };
-		BD5F71F21B3B47DE00F7218E /* Merchandise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merchandise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +98,10 @@
 				BD4A2CFE1B3B174D00788D43 /* AppDelegate.h */,
 				BD4A2CFF1B3B174D00788D43 /* AppDelegate.m */,
 				BD5F71E51B3B3D7200F7218E /* CartModel.xcdatamodeld */,
-				BD5F71F11B3B47DE00F7218E /* Merchandise.h */,
-				BD5F71F21B3B47DE00F7218E /* Merchandise.m */,
+				BD008C191B3C8F0200F8D04C /* Tag.h */,
+				BD008C1A1B3C8F0200F8D04C /* Tag.m */,
+				BD008C161B3C8F0200F8D04C /* Merchandise.h */,
+				BD008C171B3C8F0200F8D04C /* Merchandise.m */,
 				BD5F71EE1B3B41BF00F7218E /* Merchandise+Methods.h */,
 				BD5F71EF1B3B41BF00F7218E /* Merchandise+Methods.m */,
 				BD4A2D041B3B174D00788D43 /* Main.storyboard */,
@@ -239,8 +244,9 @@
 			files = (
 				BD4A2D001B3B174D00788D43 /* AppDelegate.m in Sources */,
 				BD4A2D281B3B197300788D43 /* DataManager.m in Sources */,
-				BD5F71F31B3B47DE00F7218E /* Merchandise.m in Sources */,
+				BD008C181B3C8F0200F8D04C /* Merchandise.m in Sources */,
 				BD4A2CFD1B3B174D00788D43 /* main.m in Sources */,
+				BD008C1B1B3C8F0200F8D04C /* Tag.m in Sources */,
 				BD5F71F01B3B41BF00F7218E /* Merchandise+Methods.m in Sources */,
 				BD5F71E71B3B3D7200F7218E /* CartModel.xcdatamodeld in Sources */,
 				BD4A2D221B3B18A700788D43 /* CartTableViewController.m in Sources */,

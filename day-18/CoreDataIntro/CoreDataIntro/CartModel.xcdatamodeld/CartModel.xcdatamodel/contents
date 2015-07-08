@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E26a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Merchandise" representedClassName="Merchandise" syncable="YES">
-        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="priceInCents" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="rating" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="merchandise" inverseEntity="Tag" syncable="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="merchandise" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Merchandise" inverseName="tags" inverseEntity="Merchandise" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Merchandise" positionX="-3726" positionY="-1683" width="128" height="103"/>
+        <element name="Merchandise" positionX="-2718" positionY="-2592" width="137" height="103"/>
+        <element name="Tag" positionX="-2414" positionY="-2572" width="128" height="88"/>
     </elements>
 </model>
