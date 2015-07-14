@@ -24,7 +24,6 @@ Group 1
   * Alan
 
 Group 2
-  * Matt
   * Lukas
 
   
@@ -39,22 +38,23 @@ Group 2
   * Nic
 
 
-
 #Tuesday, 7/21
 
-* Gan
-* George
+Group 1
+  * Gan
+  * George
+
+Group 2
+  * Matt
 
 
 #Tuesday, 07/28
 
-Group 1
   * Dylan
   * Mason
 
 
 # Tuesday, 08/04
 
-Group 1
   * Omar
   * Amitai
