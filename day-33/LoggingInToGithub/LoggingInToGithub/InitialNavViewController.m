@@ -7,6 +7,7 @@
 //
 
 #import "InitialNavViewController.h"
+#import <AFOAuth2Manager/AFOAuth2Manager.h>
 
 @interface InitialNavViewController ()
 
@@ -14,24 +15,17 @@
 
 @implementation InitialNavViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
+-(void)viewWillAppear:(BOOL)animated
+{
+    AFOAuthCredential *credential = [AFOAuthCredential retrieveCredentialWithIdentifier:@"githubauth"];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if(credential) {
+        // we are logged in!
+        [self performSegueWithIdentifier:@"InitialToReposSegueID" sender:nil];
+    }
+    else {
+        [self performSegueWithIdentifier:@"InitialToLogInSegueID" sender:nil];
+    }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

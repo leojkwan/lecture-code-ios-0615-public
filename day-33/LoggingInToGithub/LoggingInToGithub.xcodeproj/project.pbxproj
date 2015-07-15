@@ -15,6 +15,7 @@
 		BD024AAA1B558A2000558855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD024AA91B558A2000558855 /* Images.xcassets */; };
 		BD024AAD1B558A2000558855 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD024AAB1B558A2000558855 /* LaunchScreen.xib */; };
 		BD024AB91B558A2000558855 /* LoggingInToGithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD024AB81B558A2000558855 /* LoggingInToGithubTests.m */; };
+		BDC9B3CC1B56F60700313679 /* InitialNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9B3CB1B56F60700313679 /* InitialNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		BD024AB21B558A2000558855 /* LoggingInToGithubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggingInToGithubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD024AB71B558A2000558855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD024AB81B558A2000558855 /* LoggingInToGithubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoggingInToGithubTests.m; sourceTree = "<group>"; };
+		BDC9B3CA1B56F60700313679 /* InitialNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialNavViewController.h; sourceTree = "<group>"; };
+		BDC9B3CB1B56F60700313679 /* InitialNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialNavViewController.m; sourceTree = "<group>"; };
 		DFF7213163A8CC1859F388BB /* libPods-LoggingInToGithub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoggingInToGithub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6F2917B0D8D6DEC7C1CB69 /* Pods-LoggingInToGithub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoggingInToGithub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoggingInToGithub/Pods-LoggingInToGithub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +99,8 @@
 				BD024AA91B558A2000558855 /* Images.xcassets */,
 				BD024AAB1B558A2000558855 /* LaunchScreen.xib */,
 				BD024A9C1B558A2000558855 /* Supporting Files */,
+				BDC9B3CA1B56F60700313679 /* InitialNavViewController.h */,
+				BDC9B3CB1B56F60700313679 /* InitialNavViewController.m */,
 			);
 			path = LoggingInToGithub;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				BD024AA51B558A2000558855 /* ViewController.m in Sources */,
 				BD024AA21B558A2000558855 /* AppDelegate.m in Sources */,
 				BD024A9F1B558A2000558855 /* main.m in Sources */,
+				BDC9B3CC1B56F60700313679 /* InitialNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
