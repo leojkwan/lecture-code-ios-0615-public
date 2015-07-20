@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDT-kO-4Md">
+                                <rect key="frame" x="93" y="57" width="193" height="225"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PMv-VS-vyN">
+                                        <rect key="frame" x="8" y="8" width="177" height="177"/>
+                                        <color key="backgroundColor" red="0.92120724919999997" green="0.84832113980000001" blue="0.62377804520000002" alpha="0.75" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PMv-VS-vyN" secondAttribute="height" multiplier="1:1" id="1lk-p1-mWJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="TqI-uk-qjX">
+                                        <rect key="frame" x="86" y="87" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9X-oK-d22">
+                                        <rect key="frame" x="8" y="193" width="177" height="24"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.36355090140000001" green="0.52429193259999995" blue="0.77835404870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90114599470000001" green="0.87520819900000002" blue="0.78629982470000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PMv-VS-vyN" secondAttribute="width" constant="16" id="7K1-aI-Nkw"/>
+                                    <constraint firstAttribute="centerX" secondItem="PMv-VS-vyN" secondAttribute="centerX" id="Iem-vN-ZdV"/>
+                                    <constraint firstAttribute="width" constant="193" id="Zbp-fj-6oq"/>
+                                    <constraint firstItem="z9X-oK-d22" firstAttribute="bottom" secondItem="wDT-kO-4Md" secondAttribute="bottomMargin" id="anp-qn-ZBZ"/>
+                                    <constraint firstItem="z9X-oK-d22" firstAttribute="top" secondItem="PMv-VS-vyN" secondAttribute="bottom" constant="8" id="cah-gc-Dex"/>
+                                    <constraint firstItem="z9X-oK-d22" firstAttribute="leading" secondItem="wDT-kO-4Md" secondAttribute="leadingMargin" id="ep1-Nh-jSf"/>
+                                    <constraint firstItem="TqI-uk-qjX" firstAttribute="centerX" secondItem="PMv-VS-vyN" secondAttribute="centerX" constant="-0.5" id="fSV-Ju-q1r"/>
+                                    <constraint firstItem="PMv-VS-vyN" firstAttribute="top" secondItem="wDT-kO-4Md" secondAttribute="topMargin" id="lXU-Ue-mwB"/>
+                                    <constraint firstItem="z9X-oK-d22" firstAttribute="trailing" secondItem="wDT-kO-4Md" secondAttribute="trailingMargin" id="rwL-25-2yk"/>
+                                    <constraint firstItem="TqI-uk-qjX" firstAttribute="centerY" secondItem="PMv-VS-vyN" secondAttribute="centerY" constant="0.5" id="tnq-NW-NHx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9O-JC-WAa" customClass="FISUserProfileView">
+                                <rect key="frame" x="93" y="292" width="193" height="230"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="0eH-m1-YdM"/>
+                                    <constraint firstAttribute="height" constant="230" id="Oph-Is-htQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="P9O-JC-WAa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="77" id="5hR-Sd-ucD"/>
+                            <constraint firstItem="P9O-JC-WAa" firstAttribute="top" secondItem="z9X-oK-d22" secondAttribute="bottom" constant="18" id="8jK-br-skg"/>
+                            <constraint firstItem="wDT-kO-4Md" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="77" id="ZVM-Nb-SPE"/>
+                            <constraint firstItem="wDT-kO-4Md" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="37" id="a9b-sB-tW3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="profileContainerView" destination="wDT-kO-4Md" id="RHW-3z-FNx"/>
+                        <outlet property="profileImageSpinner" destination="TqI-uk-qjX" id="t8q-D0-Qs6"/>
+                        <outlet property="profileImageView" destination="PMv-VS-vyN" id="nl4-05-VRx"/>
+                        <outlet property="profileNameLabel" destination="z9X-oK-d22" id="1A8-u1-7Hc"/>
+                        <outlet property="profileView" destination="P9O-JC-WAa" id="hcd-el-ZLr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
