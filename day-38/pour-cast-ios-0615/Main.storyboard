@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="p6o-7o-dMw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="67C-qC-pgi">
+            <objects>
+                <viewController id="p6o-7o-dMw" customClass="FISViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aAc-nO-oQc"/>
+                        <viewControllerLayoutGuide type="bottom" id="0h7-yD-lmh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rKl-or-0IZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgC-e9-H1U" customClass="FISDailyForecastView">
+                                <rect key="frame" x="16" y="20" width="177" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="6CK-R1-xjh"/>
+                                    <constraint firstAttribute="height" constant="150" id="Fdh-w4-bkk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ewl-h2-FfZ" customClass="FISDailyForecastView">
+                                <rect key="frame" x="16" y="186" width="97" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="Nsy-KG-qtf"/>
+                                    <constraint firstAttribute="height" constant="150" id="QtB-1A-apB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="35V-tB-SmD" customClass="FISDailyForecastView">
+                                <rect key="frame" x="121" y="186" width="97" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="7BK-hT-OjB"/>
+                                    <constraint firstAttribute="height" constant="150" id="H5S-ue-gX9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVK-5k-qTd" customClass="FISDailyForecastView">
+                                <rect key="frame" x="223" y="186" width="97" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="H6v-Do-sZZ"/>
+                                    <constraint firstAttribute="height" constant="150" id="ZWi-z7-nTw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4f-vn-y6d" customClass="FISDailyForecastView">
+                                <rect key="frame" x="145" y="28" width="97" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="5du-6E-eUK"/>
+                                    <constraint firstAttribute="height" constant="150" id="GQf-Va-icF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f4f-vn-y6d" firstAttribute="leading" secondItem="bgC-e9-H1U" secondAttribute="trailing" constant="-48" id="260-xs-DJi"/>
+                            <constraint firstItem="35V-tB-SmD" firstAttribute="leading" secondItem="Ewl-h2-FfZ" secondAttribute="trailing" constant="8" id="4BW-Vc-bfj"/>
+                            <constraint firstItem="f4f-vn-y6d" firstAttribute="top" secondItem="aAc-nO-oQc" secondAttribute="bottom" constant="8" id="AnV-tW-U22"/>
+                            <constraint firstItem="bgC-e9-H1U" firstAttribute="top" secondItem="aAc-nO-oQc" secondAttribute="bottom" id="Bdz-5Q-RwI"/>
+                            <constraint firstItem="WVK-5k-qTd" firstAttribute="leading" secondItem="35V-tB-SmD" secondAttribute="trailing" constant="5" id="ItK-Li-zuX"/>
+                            <constraint firstItem="WVK-5k-qTd" firstAttribute="top" secondItem="aAc-nO-oQc" secondAttribute="bottom" constant="166" id="Jsx-AU-S3u"/>
+                            <constraint firstItem="Ewl-h2-FfZ" firstAttribute="top" secondItem="bgC-e9-H1U" secondAttribute="bottom" constant="16" id="ZLB-ci-rOp"/>
+                            <constraint firstItem="Ewl-h2-FfZ" firstAttribute="leading" secondItem="rKl-or-0IZ" secondAttribute="leadingMargin" id="Zpz-aJ-o2o"/>
+                            <constraint firstItem="bgC-e9-H1U" firstAttribute="leading" secondItem="rKl-or-0IZ" secondAttribute="leadingMargin" id="g92-zH-g05"/>
+                            <constraint firstItem="35V-tB-SmD" firstAttribute="top" secondItem="f4f-vn-y6d" secondAttribute="bottom" constant="8" id="shs-NK-W45"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="day1View" destination="bgC-e9-H1U" id="92B-6v-wLD"/>
+                        <outlet property="day2View" destination="f4f-vn-y6d" id="V54-B4-Vhs"/>
+                        <outlet property="day3View" destination="Ewl-h2-FfZ" id="bfr-nJ-ijW"/>
+                        <outlet property="day4View" destination="35V-tB-SmD" id="DIN-CC-0Mp"/>
+                        <outlet property="day5View" destination="WVK-5k-qTd" id="QOd-n8-8Mz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EpU-Aa-YO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="418"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
